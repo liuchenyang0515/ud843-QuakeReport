@@ -11,4 +11,6 @@ lesson-three笔记记录：
 
 4.退出程序再进，回调onCreateLoader,EarthquakeLoader(这是构造方法),onStartLoading,loadInBackground,onLoadFinished.
 
+5.进入下一个fragment，再返回到刚刚的界面onLoaderReset->onCreateLoader->EarthquakeLoader(构造)->onStartLoading->loadInBackground->onLoadFinished.
+
 确定和监控连接状态讲解官网：https://developer.android.google.cn/training/monitoring-device-state/connectivity-monitoring?utm_source=udacity&utm_medium=course&utm_campaign=android_basics
